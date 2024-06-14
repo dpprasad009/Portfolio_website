@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Nagamalla Durga Prasad</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Nagamalla Durga Prasad</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1690610089/38b3095e-2270-4e58-9e5a-485e1613ec23_1690555814898_q5w4vm.png" alt="DP profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Durga Prasad</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://drive.google.com/file/d/1SjbVB-xiNpz90R9PBwRh9PmBxBofkFBJ/view')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718292758/linkedin_gfl7sd.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/nagamalla-durga-prasad/'"
+          />
+          <img
+            src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718292852/github_gml0oi.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/dpprasad009'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718364258/WhatsApp_Image_2024-04-28_at_3.18.07_PM_zcdjo0.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718294337/experience_xhxll3.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>6 months <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718294409/education_uyxq1s.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech Bachelor of Technology<br />CSE-2024</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                With six months of hands-on experience in HTML and CSS, you have developed a solid 
+                foundation in web development. Your proficiency in HTML enables you to structure web pages 
+                effectively, creating a clear and logical flow of content. Through your CSS skills, you can style 
+                these web pages to make them visually appealing and responsive, ensuring a great user
+                experience across various devices.Additionally, your understanding of the basics of JavaScript
+                allows you to add interactivity to your web projects, enhancing the dynamic behavior of your
+                sites. This combination of skills equips you to build well-structured, styled, and interactive web
+                pages, laying a strong groundwork for further growth in web development.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718329924/arrow_xqit0d.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718332044/checkmark_j9xjcl.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718332044/checkmark_j9xjcl.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718332044/checkmark_j9xjcl.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718332044/checkmark_j9xjcl.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718332044/checkmark_j9xjcl.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718332044/checkmark_j9xjcl.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+            <div>
+              <h3>React Js</h3>
+              <p>Intermediate</p>
+            </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718332044/checkmark_j9xjcl.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718332044/checkmark_j9xjcl.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718332044/checkmark_j9xjcl.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718332044/checkmark_j9xjcl.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718329924/arrow_xqit0d.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718332921/21341620370485-0_zrknhg.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Detection of Spam and Fake Spam Messages in Twitter using Machine Learning</h2>
+            <p>KNN,Navie Bayes,Decision Tree,Random Forest</p><br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/dpprasad009/DETECTION-OF-SPAM-AND-FAKE-SPAM-MESSAGES-IN-TWITTER'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1x0asdtYDtoDLWrfeM1oBBVCY1-C-e4TG/view'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718334020/Screenshot_2024-06-14_082951_yvp4aj.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">FOOD RESPONSIVE WEBSITE</h2>
+            <p>A static food website is a simple and straightforward online platform that serves content in a fixed format. 
+                Unlike dynamic or responsive websites, static websites do not change their layout or content based on the user's device or interactions. 
+                </p><br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/dpprasad009/Food-Website'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://dpprasad009.github.io/Food-Website/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718337062/Screenshot_2024-06-14_092039_vfmtmw.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Telegram ChatBot</h2>
+            <p>A Telegram chatbot developed for our class members serves as an innovative and efficient communication tool designed to enhance collaboration and streamline information sharing within our educational community. 
+                This chatbot leverages the Telegram platform to provide instant access to important updates.</p><br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/dpprasad009/Telegram_Chat_Bot'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1DCLP93MvNm3euVapsWSRXwSryzc3j9UL/view'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718329924/arrow_xqit0d.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718339123/email_lz9gsk.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:dpprasad009@gmail.com">dpprasad009@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="https://res.cloudinary.com/dbl4fjxuf/image/upload/v1718292758/linkedin_gfl7sd.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/nagamalla-durga-prasad/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Nagamalla Durga Prasad. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
